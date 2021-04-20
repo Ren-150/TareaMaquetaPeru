@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/imagenes/Fondo.jpg");
+    background-size: cover;
+}
+
+header{
+    height: 100px;
+    margin: auto;
+    background-color:white;
+    display: flex;
+}
+
+#caja1{
+    width: 1500px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: white;
+    background-color: rgb(224, 10, 10);
+    font-size: 25px;
+}
+
+#logo img{
+    padding-top: 10px;
+    width: 300px;
+}
+
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#imagen img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+#caja2grande{
+    position: relative;
+    left: 250px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 800px;
+    background-color: rgb(228, 225, 222);
+}
+
+#encabezado{
+    width: 800px;
+    background-color: rgb(224, 10, 10);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+#encabezado h2{
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.barra1{
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+}
+
+.icono{
+    width: 60px;
+    height: 50px;
+    background-color: red;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.subtitulo{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+#cajatexto{
+    width: 700px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#botontexto {
+    width: 700px;
+    height: 60px;
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#botontexto a {
+    color: white;
+    text-decoration:none;
+}
+
+#ayuda{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#ayuda a{
+    color: blue;
+    text-decoration: none;
+}
+
+#piepagina{
+    background-color: red;
+    margin-top: 50px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cuadro1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#cuadro1 a{
+    color: white;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+#cuadro2{
+    text-align: center;
+}
+
+#cuadro2 img{
+    width: 300px;
+    margin: 5px 120px;
+}
+
+
